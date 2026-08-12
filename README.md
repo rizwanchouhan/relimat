@@ -40,7 +40,7 @@ Qualitative comparison of video matting results on challenging real-world sequen
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone git@github.com:rizwanchouhan/relimat.git
 cd relimat
 ```
 
