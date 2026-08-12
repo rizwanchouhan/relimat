@@ -110,7 +110,7 @@ The mask should indicate the target foreground object(s) in the reference/first 
 After downloading the pretrained model, run:
 
 ```bash
-python inference.py \
+python inference_relimat.py \
     --input inputs/videos/sample1.mp4 \
     --mask inputs/masks/sample1.png \
     --checkpoint pretrained_models/relimat.pth
@@ -121,7 +121,7 @@ If your implementation uses a different inference entry point, replace `inferenc
 For example, a folder containing video frames can be processed as:
 
 ```bash
-python inference.py \
+python inference_relimat.py \
     --input inputs/videos/sample1 \
     --mask inputs/masks/sample1.png \
     --checkpoint pretrained_models/relimat.pth
