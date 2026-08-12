@@ -50,13 +50,6 @@ pip install torch torchvision
 ```bash
 pip install -r requirements.txt
 ```
-
-If the repository provides a local package configuration, install it with:
-
-```bash
-pip install -e .
-```
-
 ---
 
 ## 📦 Pretrained Models
@@ -68,18 +61,6 @@ pretrained_models/
 ├── relimat.pth
 └── ...
 ```
-
-If multiple checkpoints are provided, use the checkpoint corresponding to the dataset/model configuration you want to evaluate.
-
-Example:
-
-```text
-pretrained_models
-└── relimat.pth
-```
-
-> Replace the checkpoint URL and filename with the official release path once the pretrained models are publicly available.
-
 ---
 
 # 🔥 Inference
@@ -116,7 +97,7 @@ python inference_relimat.py \
     --checkpoint pretrained_models/relimat.pth
 ```
 
-If your implementation uses a different inference entry point, replace `inference.py` and the corresponding arguments with the provided script.
+If your implementation uses a different inference entry point, replace `inference_relimat.py` and the corresponding arguments with the provided script.
 
 For example, a folder containing video frames can be processed as:
 
@@ -218,8 +199,6 @@ python eval_crgnn.py \
     --data_root YOUR_CRGNN_ROOT \
     --checkpoint pretrained_models/relimat.pth
 ```
-
-> Replace the command-line arguments with the exact evaluation interface implemented in the released repository.
 
 ---
 
