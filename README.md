@@ -22,15 +22,15 @@ Qualitative comparison of video matting results on challenging real-world sequen
   <tr>
     <td style="text-align: center;">
       <p>Input Video</p>
-      <img width="245" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video1.gif" alt="input video">
+      <img width="240" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video1.gif" alt="input video">
     </td>
     <td style="text-align: center;">
       <p>Foreground</p>
-      <img width="245" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video2.gif" alt="Foreground">
+      <img width="240" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video2.gif" alt="Foreground">
     </td>
     <td style="text-align: center;">
       <p>Alpha Output</p>
-      <img width="245" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video3.gif" alt="Alpha Output">
+      <img width="240" src="https://github.com/rizwanchouhan/relimat/blob/main/resources/video3.gif" alt="Alpha Output">
     </td>
   </tr>
 </table>
