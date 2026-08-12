@@ -1,0 +1,44 @@
+# Core numerical and deep-learning dependencies
+numpy>=1.24
+scipy>=1.10
+Pillow>=9.5
+opencv-python>=4.8
+tqdm>=4.66
+einops>=0.7
+
+# PyTorch
+# Install a CUDA-compatible version of torch/torchvision separately if needed.
+torch
+torchvision
+
+# Configuration and utilities
+PyYAML>=6.0
+omegaconf>=2.3
+hydra-core>=1.3
+easydict>=1.10
+requests>=2.31
+packaging>=23.0
+
+# Video I/O
+av>=10.0
+imageio>=2.31
+imageio-ffmpeg>=0.4.9
+ffmpeg-python>=0.2.0
+
+# Evaluation / image processing
+scikit-image>=0.21
+matplotlib>=3.7
+
+# Optional: experiment logging
+tensorboard>=2.14
+
+# Optional: progress / data utilities
+h5py>=3.9
+
+# Optional: interactive demo
+gradio>=4.0
+
+# Optional: model/data downloading
+gdown>=4.7
+huggingface-hub>=0.20
+safetensors>=0.4
